@@ -134,7 +134,7 @@ const router = createBrowserRouter([
     element: <h1>yoooo!</h1>
   }
 
-],{basename:'/app/'})
+])
 
 function App() {
   return (
