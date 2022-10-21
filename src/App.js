@@ -24,6 +24,7 @@ import Icicc21 from './PrevConf/icicc21';
 import Icicc20 from './PrevConf/icicc20';
 import Icicc19 from './PrevConf/icicc19';
 import Icicc18 from './PrevConf/icicc18';
+import Test from './test';
 
 
 const router = createBrowserRouter([
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+      },
+      {
+        path: '/test',
+        element: <Test />,
       },
       {
         path: 'about_universal_innovators',
