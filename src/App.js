@@ -29,15 +29,15 @@ import Test from './test';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/*',
     element: <TempLay />,
     children: [
       {
-        path: '/',
+        path: '',
         element: <Home />,
       },
       {
-        path: '/test',
+        path: 'test',
         element: <Test />,
       },
       {
